@@ -5,7 +5,7 @@ import com.company.model.Employee;
 
 public class EmployeeService extends EntityService<Employee, EmployeeDao> {
 
-    private static EmployeeDao dao = new EmployeeDao();
+    static EmployeeDao dao = new EmployeeDao();
 
     @Override
     EmployeeDao getDao() {

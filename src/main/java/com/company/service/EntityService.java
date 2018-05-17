@@ -9,16 +9,14 @@ import java.util.List;
 
 public abstract class EntityService<T extends Entity, U extends EntityDao> {
 
-    private U dao = getDao();
-
     abstract U getDao();
 
     public List<T> getAllItems(String order) {
-        return dao.getList(order);
+        return getDao().getList(order);
     }
 
     public T getItem(Long id) {
-        T item = (T) dao.get(id);
+        T item = (T) getDao().get(id);
         if (item == null) {
             throw new ItemNotFoundException("Entity with id " + id + " is not available");
         }
@@ -28,10 +26,10 @@ public abstract class EntityService<T extends Entity, U extends EntityDao> {
     public T addItem(T item) {
         checkIdNegative(item.getNumber());
 
-        if (dao.get(item.getNumber()) != null) {
+        if (getDao().get(item.getNumber()) != null) {
             throw new ItemAlreadyAvailableException("Entity with id " + item.getNumber() + " is already available");
         }
-        return (T) dao.add(item);
+        return (T) getDao().add(item);
     }
 
     private void checkIdNegative(long number) {
@@ -43,14 +41,14 @@ public abstract class EntityService<T extends Entity, U extends EntityDao> {
     public T deleteItem(Long number) {
         checkIdNegative(number);
 
-        return (T) dao.remove(getItem(number));
+        return (T) getDao().remove(getItem(number));
     }
 
     public T getItemMax() {
-        return (T) dao.getMax();
+        return (T) getDao().getMax();
     }
 
     public T getItemMin() {
-        return (T) dao.getMin();
+        return (T) getDao().getMin();
     }
 }
