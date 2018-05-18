@@ -15,7 +15,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class EmployeeServiceTest {
+public class TestEmployeeService {
 
     private EmployeeService target = null;
     private EmployeeDao mockEmployeeDao = null;

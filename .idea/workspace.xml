@@ -319,14 +319,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceTest">
+  <component name="RunManager" selected="JUnit.TestEmployeeService">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoWebApi" />
       <extension name="coverage">
         <pattern>
@@ -337,7 +337,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.service" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.EmployeeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.TestEmployeeService" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -349,7 +349,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeServiceTest.deleteItem_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeService.deleteItem_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoWebApi" />
       <extension name="coverage">
         <pattern>
@@ -360,7 +360,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.service" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.EmployeeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.TestEmployeeService" />
       <option name="METHOD_NAME" value="deleteItem_success" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -372,7 +372,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeServiceTest.deleteItem_throws_exception_if_employee_not_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeService.deleteItem_throws_exception_if_employee_not_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoWebApi" />
       <extension name="coverage">
         <pattern>
@@ -383,7 +383,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.service" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.EmployeeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.TestEmployeeService" />
       <option name="METHOD_NAME" value="deleteItem_throws_exception_if_employee_not_valid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -395,7 +395,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeServiceTest.getItemMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeService.getItemMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoWebApi" />
       <extension name="coverage">
         <pattern>
@@ -406,7 +406,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.service" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.EmployeeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.TestEmployeeService" />
       <option name="METHOD_NAME" value="getItemMax" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -418,7 +418,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeServiceTest.getItemMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployeeService.getItemMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoWebApi" />
       <extension name="coverage">
         <pattern>
@@ -429,7 +429,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.service" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.EmployeeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.TestEmployeeService" />
       <option name="METHOD_NAME" value="getItemMin" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -516,19 +516,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.tomcat" />
-      <item itemvalue="JUnit.EmployeeServiceTest.deleteItem_throws_exception_if_employee_not_valid" />
-      <item itemvalue="JUnit.EmployeeServiceTest.getItemMin" />
-      <item itemvalue="JUnit.EmployeeServiceTest.getItemMax" />
-      <item itemvalue="JUnit.EmployeeServiceTest" />
-      <item itemvalue="JUnit.EmployeeServiceTest.deleteItem_success" />
+      <item itemvalue="JUnit.TestEmployeeService.deleteItem_throws_exception_if_employee_not_valid" />
+      <item itemvalue="JUnit.TestEmployeeService.getItemMin" />
+      <item itemvalue="JUnit.TestEmployeeService.getItemMax" />
+      <item itemvalue="JUnit.TestEmployeeService" />
+      <item itemvalue="JUnit.TestEmployeeService.deleteItem_success" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeServiceTest" />
-        <item itemvalue="JUnit.EmployeeServiceTest.deleteItem_success" />
-        <item itemvalue="JUnit.EmployeeServiceTest.getItemMin" />
-        <item itemvalue="JUnit.EmployeeServiceTest.getItemMax" />
-        <item itemvalue="JUnit.EmployeeServiceTest.deleteItem_throws_exception_if_employee_not_valid" />
+        <item itemvalue="JUnit.TestEmployeeService" />
+        <item itemvalue="JUnit.TestEmployeeService.deleteItem_success" />
+        <item itemvalue="JUnit.TestEmployeeService.getItemMin" />
+        <item itemvalue="JUnit.TestEmployeeService.getItemMax" />
+        <item itemvalue="JUnit.TestEmployeeService.deleteItem_throws_exception_if_employee_not_valid" />
       </list>
     </recent_temporary>
   </component>
