@@ -8,6 +8,11 @@ You can start integrated Tomcat Server with following command
 
 Tomcat server will start and be active on http://localhost:8080/NumbersDemo . This is the {{url}} for following commands below.
 
+--------- UNIT TESTS -------------
+
+You can run unit tests with following command
+../NumbersDemo> mvn test
+
 --------- MONGODB -------------
 
 You have to install MongoDb, create a database "mydb" and a collection "employees" using following commands
